@@ -1,0 +1,30 @@
+footer {
+    padding: 10px;
+    background-color: #1C1E28;
+    font-family: inter;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-grid-container {
+    display: grid;
+    padding-left: 3%;
+    padding-right: 3%;
+    grid-template-columns: 40% 20% 20% 20%;
+}
+
+.footer-grid-item {
+    margin: 10px
+}
+
+.footer-grid-item>.body-div,
+.body-div>p {
+    font-weight: lighter;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.header-div>p {
+    margin: 0px;
+}
